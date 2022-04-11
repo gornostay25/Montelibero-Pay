@@ -1,0 +1,58 @@
+{
+    "name": "MTL Pay",
+    "short_name": "MTL Pay",
+    "theme_color": "#ebbe1d",
+    "background_color": "#ebbe1d",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope":"/",
+    "start_url": "/",
+    "categories":["business","finance","utilities"],
+    "icons": [
+        {
+            "src": "/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        {
+          "name": "Scan",
+          "url": "/scan",
+          "icons":[
+              {
+                "src": "/icons/shortcuts.svg#scan",
+                "sizes": "96x96",
+                "type": "image/svg+xml"
+            }
+          ]
+        },
+        {
+          "name": "Send money",
+          "url": "/send",
+          "icons":[
+            {
+                "src": "/icons/shortcuts.svg#send",
+                "sizes": "96x96",
+                "type": "image/svg+xml"
+            }
+          ]
+        },
+        {
+          "name": "Receive money",
+          "url": "/receive",
+          "icons":[
+              {
+                "src": "/icons/shortcuts.svg#receive",
+                "sizes": "96x96",
+                "type": "image/svg+xml"
+            }
+          ]
+        }
+    ]
+  }
